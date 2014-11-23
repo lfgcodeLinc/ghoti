@@ -12,11 +12,18 @@
         <?php include("header.php"); ?>
         <?php include("navbar.php"); ?>
         
-        
+        <?php 
+            $error = $_GET['error'];
+            echo $error;
+        ?>
         <div class="content">
-        
-            <p>This is a filler teacher login page</p>
-        
+            <h3>Sign in!</h3>
+            
+            <form action='trylogin.php' method="post">
+                <p>Username: <input type='text' name='username'/></p>
+                <p>Password: <input type='text' name='pass'/></p>
+                <p> <input type='submit' value='Submit'/></p>
+            </form>
         </div>
         
         <?php include("footer.php"); ?>

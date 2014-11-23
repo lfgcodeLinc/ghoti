@@ -11,12 +11,26 @@
     <body>
         <?php include("header.php"); ?>
         <?php include("navbar.php"); ?>
-        
+        <?php 
+            if(isset($_GET['username'])) {
+                $username = $_GET['username'];
+            }
+            
+            else $username = false;
+        ?>
         
         <div class="content">
-        
-            <p>This is a filler index page</p>
-        
+            <?php 
+            if (!$username) {
+                echo "<h3>Welcome!</h3>";
+                echo "<p>You haven't logged in!</p>";
+                echo "<p><a href='register.php?error='>Sign up!</a><br><a href='teacherlogin.php?error='>Login!</a></p>";
+            }
+
+            else {
+                echo "<h3>Welcome, ".$username."</h3>";
+            }
+            ?>
         </div>
         
         <?php include("footer.php"); ?>
