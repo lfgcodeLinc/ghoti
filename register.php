@@ -15,7 +15,7 @@
         
         <div class="content">
         
-            <p>This is a filler staff login page</p>
+            <p>This is a filler teacher register page</p>
         
         </div>
         
