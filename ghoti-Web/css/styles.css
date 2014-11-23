@@ -1,0 +1,28 @@
+body 
+{
+	font-family: "Times New Roman", Times, serif;
+	}
+	
+div.nav
+{	border: 2px solid black;
+	line-height:170%;
+	color: #FFFFFF;
+
+	letter-spacing: 1px;
+	background-color: #333333;
+}
+
+div.content
+{	border: 2px solid #0066CC;
+	padding:1em;
+	letter-spacing: 1px;	
+	overflow: auto;
+	}
+
+div.foot
+{	
+	padding: .3em;	
+	}
+	
+a.nav {color: #FFFFFF}
+p.footer	{ font-size: 10pt; }
