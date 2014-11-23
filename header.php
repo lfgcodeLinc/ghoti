@@ -1,0 +1,1 @@
+<div><center><img src="img/tempHeader.png" alt="temp Header placeholder" /></center></div>
